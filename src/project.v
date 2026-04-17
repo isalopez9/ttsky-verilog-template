@@ -19,7 +19,7 @@ module tt_um_example (
 //Instancia del contador
 wire rst=~rst_n;
 wire [3:0] count;
-contador my_counter(.clk(clk),.rst(rst),.count(count))
+contador my_counter(.clk(clk),.rst(rst),.count(count));
 
 assign uo_out[3:0]=count;
 assign uo_out[7:4]=0;
