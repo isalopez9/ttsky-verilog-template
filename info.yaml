@@ -1,6 +1,6 @@
 project:
   title:        "4-bit Counter"
-  author:       "Isabella Lopez"
+  author:       "Isabella Lopez R"
   discord:      "" 
   description:  "A simple 4-bit synchronous counter"
   language:     "Verilog"
