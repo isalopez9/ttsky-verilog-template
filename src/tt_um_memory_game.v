@@ -72,7 +72,7 @@ module tt_um_isalopez9_memory_game (
 
     // Salidas bidireccionales usadas como salida de debug
     assign uio_out = {3'b000, level};
-    assign uio_oe  = 8'b11111111;
+    assign uio_oe = (prog_mode == 1'b1) ? 8'b00000000 : 8'b11111111;
 
     // Evita warning por ena si no se usa
     wire _unused;
