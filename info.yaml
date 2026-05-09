@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Simon Memory Game Chip"
+  title:        "Simon Memory Game Chip - IEEE OpenSilicon Bootcamp"
   author:       "Isabella López & Marlon Carriel"
   discord:      ""
   description:  "A simple Simon Says memory game implemented in Verilog using a RAM and FSM."
